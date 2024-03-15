@@ -1,25 +1,30 @@
 
 const Hero = () => {
     return (
-        <div className="flex items-center justify-center mt-60">
+        <div className="flex items-center justify-center mt-52">
             <div className="w-2/6">
                 <img className="w-full rounded-full" src="https://avatars.githubusercontent.com/u/8621487?v=4" alt="" />
             </div>
-            <div className="ml-20 text-center">
-                <p className="text-lg">Hello, I'm</p>
-                <h4 className="my-4 text-3xl font-medium">Nure Alam Miaji</h4>
+            <div className="ml-24 text-center">
+                <p className="text-sm">Hello, I'm</p>
+                <h4 className="my-2 text-4xl font-semibold">Nure Alam Miaji</h4>
                 <h5 className="text-2xl font-semibold text-slate-500">Frontend Developer</h5>
-                <div className="flex mt-4">
-                    <button className="p-3 font-medium border border-black rounded-full">Download CV</button>                    <button className="p-3 ml-4 font-medium border border-black rounded-full">Contact Info</button>
+                <div className="flex mt-6">
+                    <a href="#">
+                        <button className="p-3 text-sm font-medium border border-black rounded-full hover:border-slate-600 hover:bg-slate-600 hover:text-white">Download CV</button>
+                    </a>
+                    <a href="#">
+                        <button className="p-3 ml-4 text-sm font-medium text-white border rounded-full hover:border-black border-slate-600 bg-slate-600 hover:bg-black">Contact Info</button>
+                    </a>
                 </div>
-                <div className="flex justify-center mt-4">
+                <div className="flex justify-center mt-6">
                     <button className="w-8">
-                        <a href="#">
+                        <a href="https://linkedin.com/in/nurealammiaji">
                             <img src="https://tangerine-hummingbird-1479b6.netlify.app/assets/linkedin.png" alt="" />
                         </a>
                     </button>
                     <button className="w-8 ml-4">
-                        <a href="#">
+                        <a href="https://github.com/nurealammiaji">
                             <img src="https://tangerine-hummingbird-1479b6.netlify.app/assets/github.png" alt="" />
                         </a>
                     </button>

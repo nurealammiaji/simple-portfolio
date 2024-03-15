@@ -3,7 +3,7 @@ const Navbar = () => {
     return (
         <div className="h-[50px] flex items-center justify-between">
             <div>
-                <h3 className="text-3xl">Nure Alam</h3>
+                <h3 className="text-3xl">Nure Alam Miaji</h3>
             </div>
             <ul className="flex [&>*]:mx-5 hover:[&>*]:underline underline-offset-8 hover:[&>*]:text-slate-500 text-2xl">
                 <li>
