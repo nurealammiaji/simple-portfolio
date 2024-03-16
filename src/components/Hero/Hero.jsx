@@ -1,16 +1,16 @@
 
 const Hero = () => {
     return (
-        <div className="flex items-center justify-center mt-52">
+        <div className="flex items-center justify-center mt-32">
             <div className="w-2/6">
                 <img className="w-full rounded-full" src="https://avatars.githubusercontent.com/u/8621487?v=4" alt="" />
             </div>
             <div className="ml-24 text-center">
-                <p className="text-sm">Hello, I'm</p>
-                <h4 className="my-2 text-4xl font-semibold">Nure Alam Miaji</h4>
-                <h5 className="text-2xl font-semibold text-slate-500">Frontend Developer</h5>
+                <p className="text-sm font-semibold text-slate-600">Hello, I'm</p>
+                <h4 className="my-2 text-4xl font-bold">Nure Alam Miaji</h4>
+                <h5 className="text-2xl font-semibold text-slate-600">Frontend Developer</h5>
                 <div className="flex mt-6">
-                    <a href="#">
+                    <a href="#" target="blank">
                         <button className="p-3 text-sm font-medium border border-black rounded-full hover:border-slate-600 hover:bg-slate-600 hover:text-white">Download CV</button>
                     </a>
                     <a href="#">
